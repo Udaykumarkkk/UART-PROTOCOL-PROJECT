@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/karan/project_1/project_1.srcs/sim_1/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tb
+ERROR: [VRFC 10-2989] 'tx_busy' is not declared [C:/Users/karan/project_1/project_1.srcs/sim_1/new/uart.v:120]
+ERROR: [VRFC 10-8530] module 'uart_tb' is ignored due to previous errors [C:/Users/karan/project_1/project_1.srcs/sim_1/new/uart.v:25]

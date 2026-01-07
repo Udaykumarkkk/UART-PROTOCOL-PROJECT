@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/band_gen.v" \
+"../../../../project_1.srcs/sources_1/new/urt_rx.v" \
+"../../../../project_1.srcs/sources_1/new/urt_top.v" \
+"../../../../project_1.srcs/sources_1/new/urt_tx.v" \
+
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sim_1/new/uart.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
