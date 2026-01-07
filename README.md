@@ -26,6 +26,9 @@ Parameter       	Description             	Default:
 clk_freq	     Clock frequency in Hz      	1000000
 baud_rate	      UART baud rate	             9600
 
+# SYNTHESIS DIAGRAM
+<img width="1302" height="857" alt="synthesis" src="https://github.com/user-attachments/assets/81b78917-3a12-4ebc-85e6-56531b238586" />
+
 
 📂 Files Included
 UART_tx.sv – UART Transmitter module
